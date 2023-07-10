@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url("./image/halftone-background-with-circles_23-2148907689.avif"), linear-gradient(217deg, rgb(231, 5, 73), rgba(154, 6, 6, 0) 70.71%), linear-gradient(127deg, rgb(18, 75, 200), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(18, 18, 20, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    ;
+    height: 100vh;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.primary-color {
+    color: crimson;
+}
+
+.primary-btn {
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.secondary-btn {
+    background-color: rgb(38, 32, 32);
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.hero-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul>li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 10px;
+    padding: 0px 5px;
+}
+
+ul>li a:hover {
+    color: crimson;
+}
+
+section {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-title {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.hero-description {
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
